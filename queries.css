@@ -1,0 +1,375 @@
+/*  < Tablet 740px */
+@media only screen and (min-width:740px){
+ 
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6,
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12{
+        display: block;
+    }
+    
+    .m-1 {
+        flex:0 0 8.3333%;
+        max-width: 8.33333%;
+    }
+    
+    .m-2 {
+        flex: 0 0 16.6667%;
+        max-width: 16.66667%;
+    }
+    
+    .m-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    
+    .m-4 {
+        flex: 0 0 33.3334%;
+        max-width: 33.33333%;
+    }
+    
+    .m-5 {
+        flex: 0 0 41.6667%;
+        max-width: 41.66667%;
+    }
+    
+    .m-6 {
+        flex: 0 0 43%;
+        max-width: 50%;
+    }
+    
+    .m-7 {
+        flex: 0 0 58.3334%;
+        max-width: 58.33333%;
+    }
+    
+    .m-8 {
+        flex: 0 0 66.6667%;
+        max-width: 66.66667%;
+    }
+    
+    .m-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    
+    .m-10 {
+        flex: 0 0 83.3334%;
+        max-width: 83.33333%;
+    }
+    
+    .m-11 {
+        flex: 0 0 91.6667%;
+        max-width: 91.66667%;
+    }
+    
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .m-o-1 {
+        margin-left: 8.33333%;
+    }
+    
+    .m-o-2 {
+        margin-left: 16.66667%;
+    }
+    
+    .m-o-3 {
+        margin-left: 25%;
+    }
+    
+    .m-o-4 {
+        margin-left: 33.33333%;
+    }
+    
+    .m-o-5 {
+        margin-left: 41.66667%;
+    }
+    
+    .m-o-6 {
+        margin-left: 50%;
+    }
+    
+    .m-o-7 {
+        margin-left: 58.33333%;
+    }
+    
+    .m-o-8 {
+        margin-left: 66.66667%;
+    }
+    
+    .m-o-9 {
+        margin-left: 75%;
+    }
+    
+    .m-o-10 {
+        margin-left: 83.33333%;
+    }
+    
+    .m-o-11 {
+        margin-left: 91.66667%;
+    }
+}
+
+/* PC medium resolution */
+@media (min-width:1113px){
+    
+}
+
+/* Tablet - PC low resolution min: 740px - max: 1024px */
+@media (min-width:740px) and (max-width:1023px){
+    
+
+}
+
+/* PC low resolution min 1024px - max : 1239px */
+@media (min-width:1024px) and (max-width: 1239px){
+    
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px){
+    
+}
+/* PC */
+@media only screen and (min-width:1024px){
+        
+}
+
+/* Mobile */
+@media (max-width:739px){
+
+    .product {
+        padding: 15px;
+    }
+
+    .product-link {
+        font-size: 12px;
+    }
+
+    .product-name h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+
+.product-img {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    margin-bottom: 20px;  
+}
+
+.img {
+    width: 600px;     
+    height: auto;           
+}
+
+
+.thumbnail {
+    display: flex;        
+    justify-content: center; 
+    gap: 10px;             
+    margin-top: 10px;      
+}
+
+.thumbnail-img {
+    width: 80px;          
+    height: auto;
+    border: 1px solid #ddd; 
+    border-radius: 5px;    
+    object-fit: cover;      /* Đảm bảo hiển thị đầy đủ hình nhỏ */
+}
+
+
+    .product-info {
+        width: 500px;
+        padding: 20px 0;
+    }
+
+    .product-info__specs {
+        font-size: 18px;
+    }
+
+    .product-info__description{
+        width: 500px;
+    }
+    .product-info__description ul li {
+        font-size: 14px;
+    }
+
+    .product-info__price--new {
+        font-size: 16px;
+    }
+
+    .product-info__price--old {
+        font-size: 14px;
+    }
+
+    .btn--contact,
+    .quantity--btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+
+
+    .product-describe {
+        display: flex;
+        flex-direction: column; /* Sắp xếp phần tử con theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều dọc */
+        align-items: center; /* Căn giữa theo chiều ngang */
+        min-height: 100vh; /* Chiều cao bằng toàn màn hình */
+        gap: 20px; /* Khoảng cách giữa các phần con */
+        padding: 20px; /* Thêm khoảng cách trong nếu cần */
+       
+        }
+    
+    .product-describe__title {
+
+        width: 500px;
+        margin-right: 0px;
+        background-color: #f5f5f5; 
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    .product-endow {
+        width: 500px;
+        background-color: #ececec; 
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    .products-Other__list {
+        display: flex; 
+        flex-wrap: wrap; /* Cho phép các phần tử xuống hàng nếu không đủ chỗ */
+        justify-content: space-between;
+        gap: 20px; 
+    }
+    .products-Other__img {
+        width: 45%; 
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+
+    .footer {
+        height: auto; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 10px;
+        padding: 10px; 
+        background-color: #333; 
+        color: #ffffff;
+        position: relative;
+    }
+    
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .footer-img{
+        width: 150px;
+    }
+
+    .footer-info__contact h3{
+        font-size: 25px;
+    }
+    .footer-info__contact p{
+        font-size: 16px;
+    }
+
+    .footer-info__policies h3 {
+        font-size: 25px; 
+    }
+    
+    .footer-qr__img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto; 
+        position: relative;
+    }
+    
+    .footer-bottom { 
+        text-align: center;
+        font-size: 14px;
+        background-color: black; 
+        position: relative; 
+        z-index: 0;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .footer {
+        
+    }
+
+    .footer-info {
+        display: flex;
+        justify-content: center;   
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-contact__info h3{
+        font-size: 20px;
+    }
+
+    .footer-contact__info p{
+        font-size: 15px;
+    }
+
+    .footer-info__policies h3{
+        font-size: 20px;
+    }
+
+    .footer-img {
+        width: 150px;
+        margin: 0 auto;
+    }
+} */
+    
+    
